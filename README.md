@@ -1,33 +1,53 @@
-# Westeros Chronicles: Interactive Timeline Atlas
+# Westeros Chronicles - Interactive Timeline
 
-An ultra-high-fidelity, interactive map of the Known World that chronicles the epic journey of major and minor characters throughout the entire Game of Thrones series.
+![Westeros Banner](https://via.placeholder.com/1200x400/1a1a2e/16213e?text=Westeros+Chronicles)
 
-## 🐺 Core Features
+**The ultimate interactive timeline of *Game of Thrones* and *House of the Dragon***
 
-- **Granular Timeline (S01-S08)**: Navigate through all key milestones of the series. Every episode update triggers smooth character transitions across the map.
-- **Dynamic Character Tracking**: 20+ characters tracked with precision. Tokens update visually to reflect their status (alive, dead, or "ghosted").
-- **Intelligent Atlas**: Clicking any location reveals the "Presence" list—who is currently there during the selected episode.
-- **Cinematic Map Engine**:
-  - **Dynamic Routes**: Watch active travel paths glow and animate as characters move within an episode.
-  - **Historical Trails**: Toggle "Path History" to see the cumulative journey of any character across the seasons.
-  - **HCI Auto-Focus**: Lock the camera on a specific character to follow their story automatically as you advance the timeline.
-- **Theories & Simulation**: Activate "Citadel Simulation" mode to manually reposition characters and explore non-canonical "What-If" scenarios.
-- **Winter Horizon Mode**: Toggle "Undead Mode" to watch the realm succumb to the cold, changing the map's aesthetic and highlighting the slow advance of the Night King.
+Track every major character’s journey across Westeros and Essos episode by episode.
 
-## ⌨️ Keyboard Shortcuts
+## ✨ Features
 
-- **Space**: Play/Pause Timeline
-- **Arrow Right**: Next Episode
-- **Arrow Left**: Previous Episode
-- **Esc**: Reset View / Deselect
+- 🗺️ **Interactive SVG Map** with animated character tokens
+- ⏱️ **Scrubbable Timeline** with playback controls
+- 👥 **Character Filtering** by house or allegiance
+- 🚫 **Spoiler Control** — watch safely
+- 📍 **Real-time Path Tracing**
+- 📱 **Fully Responsive**
 
-## 🛠️ Technical Details
+## 🚀 Quick Start
 
-- **Framework**: React 19 + TypeScript
-- **Animations**: Framer Motion (for physics-based SVG transitions and smooth zooming)
-- **Styling**: Tailwind CSS + Custom SVG Filters
-- **Icons**: Lucide React
-- **Data Model**: Normalized record structures for Locations, Characters, and Episodes.
+```bash
+git clone https://github.com/smile-plzz/Westeros-Chronicles-Interactive-Timeline.git
+cd Westeros-Chronicles-Interactive-Timeline
+npm install
+npm run dev
+```
+
+## Tech Stack
+
+- React + TypeScript
+- Vite
+- Tailwind CSS
+- Framer Motion (animations)
+- Zustand / TanStack Query
+
+## Project Structure
+
+```
+src/
+├── components/
+├── data/
+├── hooks/
+├── utils/
+├── types.ts
+└── constants.ts
+```
+
+## Contributing
+
+See [CONTRIBUTING.md](CONTRIBUTING.md)
 
 ---
-*The North Remembers. The Map Records.*
+
+Made with ❤️ for the ASOIAF community
